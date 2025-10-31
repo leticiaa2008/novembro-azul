@@ -1,0 +1,60 @@
+/* ======== ESTILO GERAL ======== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0a3d62, #3c6382);
+    color: #fff;
+}
+
+/* ======== CABEÇALHO (FLEXBOX) ======== */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3799;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #82ccdd;
+}
+
+/* ======== CONTEÚDO (FLEXBOX) ======== */
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ======== RODAPÉ ======== */
+.rodape {
+    background-color: #1e3799;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}

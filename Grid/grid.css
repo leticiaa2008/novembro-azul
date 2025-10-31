@@ -1,0 +1,56 @@
+/* ======== ESTILO GERAL ======== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #0a3d62, #60a3bc);
+    color: #f0f8ff;
+}
+
+/* ======== TOPO ======== */
+.topo {
+    text-align: center;
+    background-color: #1e3799;
+    padding: 40px 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* ======== GRID ======== */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.item h2 {
+    color: #82ccdd;
+}
+
+/* Destaque */
+.destaque {
+    background: rgba(130, 204, 221, 0.2);
+    border: 2px solid #82ccdd;
+}
+
+/* ======== RODAPÉ ======== */
+.rodape {
+    background-color: #1e3799;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
